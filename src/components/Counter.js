@@ -11,7 +11,7 @@ const Counter = () => {
   const handleIncrement = () => dispatch(actions.increment());
   const handleDecrement = () => dispatch(actions.decrement());
   return (
-    <>
+    <div style={{ margin: "auto 40px" }}>
       <h1>Counter: {counter}</h1>
       <ul>
         <li>
@@ -21,7 +21,7 @@ const Counter = () => {
           <button onClick={handleDecrement}>Decrement</button>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 
