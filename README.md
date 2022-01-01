@@ -20,3 +20,9 @@
 $: npm install redux react-redux --save
 
 ```
+
+---
+
+# Sobre o projeto
+
+Contador com botão de incrementar e decrementar um numeral.
